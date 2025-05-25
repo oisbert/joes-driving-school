@@ -1,0 +1,27 @@
+@import '../../styles/variables.css';
+
+.hero-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65));
+  background-size: cover;
+  background-position: center;
+  color: var(--white);
+  text-align: center;
+  padding: 6rem var(--space-sm);
+}
+
+.hero-description {
+  font-size: var(--text-large);
+  max-width: 800px;
+  margin: 0 auto;
+  margin-bottom: var(--space-lg);
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    padding: 4rem var(--space-sm);
+  }
+  .hero-description {
+    font-size: var(--text-normal);
+  }
+}

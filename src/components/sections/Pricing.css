@@ -1,0 +1,66 @@
+@import '../../styles/variables.css';
+
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: var(--space-lg);
+}
+
+.single-lessons {
+  text-align: center;
+  margin-top: var(--space-xl);
+}
+
+/* src/components/ui/PricingCard.css */
+@import '../../styles/variables.css';
+
+.pricing-card {
+  background-color: var(--white);
+  border-radius: var(--border-radius);
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+
+.pricing-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-lg);
+}
+
+.pricing-header {
+  background-color: var(--primary);
+  color: var(--white);
+  padding: var(--space-md);
+  text-align: center;
+}
+
+.pricing-content {
+  padding: var(--space-md);
+}
+
+.price {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: var(--space-sm);
+  color: var(--secondary);
+}
+
+.feature-list {
+  margin-bottom: var(--space-md);
+  list-style-type: none;
+  font-size: 1.2rem;
+}
+
+.feature-list li {
+  padding: var(--space-xs) 0;
+  border-bottom: 1px solid #eee;
+}
+
+.feature-list li:last-child {
+  border-bottom: none;
+}
+
+.feature-list li i {
+  color: var(--primary);
+  margin-right: var(--space-xs);
+}

@@ -1,0 +1,16 @@
+@import '../../styles/variables.css';
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: var(--space-lg);
+}
+
+.feature h3 i {
+  margin-right: var(--space-xs);
+}
+
+.about-footer {
+  margin-top: var(--space-xl);
+  text-align: center;
+}

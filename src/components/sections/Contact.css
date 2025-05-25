@@ -1,0 +1,36 @@
+@import '../../styles/variables.css';
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: var(--space-lg);
+}
+
+.contact-info, .contact-form-container {
+  text-align: center;
+  background-color: var(--white);
+  padding: var(--space-lg);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-md);
+}
+
+.contact-details p {
+  margin-bottom: var(--space-xs);
+}
+
+.contact-details i {
+  color: var(--primary);
+  margin-right: var(--space-xs);
+  width: 20px;
+}
+
+.social-links {
+  display: flex;
+  gap: var(--space-sm);
+  margin-top: var(--space-xs);
+}
+
+.social-links a {
+  color: var(--primary);
+  font-size: 1.5rem;
+}

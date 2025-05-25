@@ -1,0 +1,53 @@
+@import '../../styles/variables.css';
+
+header {
+  background-color: var(--secondary);
+  color: var(--white);
+  padding: var(--space-sm) 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: var(--shadow-sm);
+}
+
+.logo-image{
+  height: 120px;
+  width: 100px;
+}
+
+.header-container {
+  display: flex;
+  padding: 0 var(--space-sm);
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo i {
+  font-size: 1.5rem;
+  margin-right: var(--space-xs);
+}
+
+.logo h3 {
+  margin: 0;
+  color: var(--white);
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: var(--white);
+}
+
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+}

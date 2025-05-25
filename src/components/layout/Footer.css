@@ -1,0 +1,26 @@
+@import '../../styles/variables.css';
+
+footer {
+  background-color: var(--secondary);
+  color: var(--white);
+  padding: var(--space-lg) 0;
+  text-align: center;
+}
+
+.footer-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: var(--space-sm);
+}
+
+.footer-logo i {
+  font-size: 1.5rem;
+  margin-right: var(--space-xs);
+}
+
+@media (max-width: 768px) {
+  footer {
+    padding: var(--space-md) var(--space-sm);
+  }
+}

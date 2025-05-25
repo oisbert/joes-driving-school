@@ -1,0 +1,39 @@
+@import '../../styles/variables.css';
+
+.hours-container {
+  max-width: 700px;
+  margin: 0 auto;
+  background-color: var(--white);
+  padding: var(--space-lg);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-md);
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+}
+
+.table th, .table td {
+  font-size: 1.3rem;
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid var(--border);
+}
+
+.table th {
+  background-color: #f2f2f2;
+}
+
+.hours-note {
+  background-color: #f8f9fa;
+  padding: var(--space-sm);
+  border-radius: 4px;
+  margin-top: var(--space-sm);
+}
+
+.hours-note i {
+  color: var(--primary);
+  margin-right: var(--space-xs);
+}
