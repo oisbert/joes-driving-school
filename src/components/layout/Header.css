@@ -5,14 +5,13 @@ header {
   color: var(--white);
   padding: var(--space-sm) 0;
   position: sticky;
-  top: 0;
   z-index: 100;
   box-shadow: var(--shadow-sm);
 }
 
 .logo-image{
-  height: 120px;
-  width: 100px;
+  height: 60px;
+  width: 80px;
 }
 
 .header-container {
