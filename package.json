@@ -2,7 +2,7 @@
   "name": "joes-driving-school",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://joedowneysdrivingschool.ie/joes-driving-school",
+  "homepage": "https://www.joedowneysdrivingschool.ie",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
