@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/joes-driving-school/static/css/main.5a2aa1cc.css",
-    "main.js": "/joes-driving-school/static/js/main.b7b02c42.js",
-    "static/media/banner-2.jpg": "/joes-driving-school/static/media/banner-2.bd1f04b81dd1c7d4cb16.jpg",
-    "static/media/logo.svg": "/joes-driving-school/static/media/logo.b2e247cc8359dbe25fcac88ac7d1419c.svg",
-    "index.html": "/joes-driving-school/index.html",
-    "main.5a2aa1cc.css.map": "/joes-driving-school/static/css/main.5a2aa1cc.css.map",
-    "main.b7b02c42.js.map": "/joes-driving-school/static/js/main.b7b02c42.js.map"
+    "main.css": "/static/css/main.ed44a407.css",
+    "main.js": "/static/js/main.03fd2357.js",
+    "static/media/banner-2.jpg": "/static/media/banner-2.bd1f04b81dd1c7d4cb16.jpg",
+    "static/media/logo.svg": "/static/media/logo.b2e247cc8359dbe25fcac88ac7d1419c.svg",
+    "index.html": "/index.html",
+    "main.ed44a407.css.map": "/static/css/main.ed44a407.css.map",
+    "main.03fd2357.js.map": "/static/js/main.03fd2357.js.map"
   },
   "entrypoints": [
-    "static/css/main.5a2aa1cc.css",
-    "static/js/main.b7b02c42.js"
+    "static/css/main.ed44a407.css",
+    "static/js/main.03fd2357.js"
   ]
 }
